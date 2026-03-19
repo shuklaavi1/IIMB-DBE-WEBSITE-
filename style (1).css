@@ -1,0 +1,209 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+  background-color: #1a1a2e;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul a {
+  color: #cccccc;
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ===== Hero Section ===== */
+#hero {
+  background-color: #f0f4ff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#hero h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1a1a2e;
+}
+
+.highlight {
+  color: #1a73e8;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #1558b0;
+  text-decoration: none;
+}
+
+/* ===== General Section Styles ===== */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Override max-width for grey sections so background covers full width */
+.section-grey {
+  background-color: #f8f9fa;
+  max-width: 100%;
+  padding: 60px 20px;
+}
+
+.section-grey > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+  border-bottom: 3px solid #1a73e8;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+/* ===== About Section ===== */
+#about p {
+  font-size: 1rem;
+  color: #555555;
+  max-width: 750px;
+}
+
+/* ===== Education Cards ===== */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid #1a73e8;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.institution {
+  color: #1a73e8;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.year {
+  font-size: 0.82rem;
+  color: #888888;
+  margin-bottom: 8px;
+}
+
+.card p:last-child {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+/* ===== Skills Section ===== */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-tag {
+  background-color: #e8f0fe;
+  color: #1a73e8;
+  border: 1px solid #c5d8fc;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 0.88rem;
+  font-weight: 400;
+}
+
+/* ===== Contact Section ===== */
+#contact p {
+  font-size: 0.97rem;
+  margin-bottom: 10px;
+  color: #444444;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #1a1a2e;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+}
